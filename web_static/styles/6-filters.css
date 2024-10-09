@@ -37,7 +37,6 @@
 	background-color: #FAFAFA;
 	list-style: none;
 	padding: 10px;
-	/* Add some padding to the popover */
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 	position: absolute;
@@ -47,7 +46,6 @@
 	width: calc(100% - 2px);
 	/* Make the popover the same width as the div, minus the border */
 	z-index: 1;
-	/* Ensure the popover is on top of other elements */
 }
 
 .filters>div:hover .popover {
